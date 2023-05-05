@@ -1,7 +1,7 @@
 
 import random
 
-print("Seja muito bem vindo ao Guess Number do Iury!")
+print("Seja muito bem vindo ao Guess Number do Sr. Arqueiro!")
 choice_number = input("Digite o número teto do desafio: ")
 
 if choice_number.isdigit():
@@ -27,6 +27,7 @@ while True:
     if answer_user == random_number:
         print("Acertou!")
         break
+      
     elif answer_user > random_number:
         print("Chutou alto, o número randomico é menor que isso..")
     else:
